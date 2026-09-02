@@ -1,0 +1,21 @@
+echo OFF
+
+echo --- Retirando Usuario GitHUB ----
+
+git config --global --unset-all user.email
+git config --global --unset-all user.name
+
+echo --- Configurando Usuario GitHUB ---- "git config --global user.no Lucin"
+git config --global user.name
+git config --global user.email samuelbrenno354@gmail.com
+echo --- Mostrando a configuração atual do Github no computador
+git config --list
+
+echo - download da pasta da Aula - PW
+
+git clone https://github.com/Brenno01-crypto/pa-2026.git
+
+echo --- Fim ---
+echo --- Joao Lindo  Saudades ---
+
+pause
